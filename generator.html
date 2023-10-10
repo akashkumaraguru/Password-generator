@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:ital,opsz,wght@0,6..12,700;0,6..12,900;1,6..12,600;1,6..12,700;1,6..12,800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="generator.css">
+</head>
+
+<body>
+    <div class="big-box">
+        <div class="box-one"></div>
+        <div class="head">
+            <div class="pswd">
+                <h1>Passsword Generator</h1>
+            </div>
+            <div class="psd">
+                <label for="password">Password Length</label>
+                <input type="Number" class="box" min="1" max="50" value="5">
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="upcase">
+                <input type="checkbox">
+                <label for="UpperCase">Upper Case</label>
+            </div>
+            <div class="lwcase">
+                <input type="checkbox">
+                <label for="LowerCase">LowerCase</label>
+            </div>
+            <div class="numb">
+                <input type="checkbox">
+                <label for="Numbers">Numbers</label>
+            </div>
+            <div class="sc">
+                <input type="checkbox">
+                <label for="Special Character">Special Character</label>
+            </div>
+
+            <div class="but">
+                <Button>Generate Passsword</Button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
