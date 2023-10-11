@@ -14,44 +14,48 @@
 </head>
 
 <body>
+
     <div class="big-box">
-        <div class="box-one"></div>
-        <div class="head">
+        <div class="agn">
             <div class="pswd">
                 <h1>Passsword Generator</h1>
-            </div>
-            <div class="psd">
-                <label for="password">Password Length</label>
-                <input type="Number" class="box" min="1" max="50" value="5">
+             </div>
+            <div class="box-one">
+                <div class="psd">
+                    <label for="password">Password Length</label>
+                    <input type="Number" class="box" min="1" max="50" value="12" id="length">
+                </div>
             </div>
         </div>
         <div class="main-div">
             <div class="upcase">
-                <input type="checkbox">
-                <label for="UpperCase">Upper Case</label>
+                <input type="checkbox" id="uppercase" checked>
+                <label for="upperCase">Upper Case</label>
             </div>
             <div class="lwcase">
-                <input type="checkbox">
-                <label for="LowerCase">LowerCase</label>
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowerCase">LowerCase</label>
             </div>
             <div class="numb">
-                <input type="checkbox">
-                <label for="Numbers">Numbers</label>
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Numbers</label>
             </div>
             <div class="sc">
-                <input type="checkbox">
-                <label for="Special Character">Special Character</label>
+                <input type="checkbox" id="special" checked>
+                <label for="scharacter">Special Character</label>
             </div>
 
             <div class="but">
-                <Button>Generate Passsword</Button>
+                <Button id="generate">Generate Passsword</Button>
+                <div class="password" id="password"></div>
+           
             </div>
-        </div>
-
-
+            
+        </div>  
     </div>
-
-
+   
+   
+<script src="generator.js"></script>
 </body>
 
 </html>

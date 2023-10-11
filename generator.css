@@ -2,56 +2,85 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Archivo Black', sans-serif;
-    font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #EEE9DA;
-    color: rgb(0, 0, 0);
+    background-image: url(pexels-miguel-á-padriñán-2882630.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.big-box{
-    height: 70vh;
-    width: 40vw;
-    background-color:#BDCDD6;
-    border-radius: 0px 0px 10px 10px;
-    margin: 90px;
-}
-.box-one{
-    height: 30px;
-    width: 40vw;
-    background-color:#6096B4;
-    border-radius: 0px 0px 10px 10px;
-}
-.head{
-    margin-left: 30%;
-}
-.psd{
-    margin:20px;
-    text-align: start;
-}
-.box{
-    width: 90px;
-}
+.agn{
+    height: 90px;
+    border-bottom: 7px dotted black;
 
+
+}
 .main-div{
-    height: 30vh;
-    margin:70px;
+    margin:20px;
+}
+.big-box {
+    height: 60vh;
+    width: 60vw;
+    background-color: rgba(233, 124, 124, 0.847);
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content: space-evenly;
-    font-size: large;
-
-
+    justify-content: center;
+    align-items: center;
 }
-input{
-    height: 40px;
+
+.box-one {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcase,
+.lwcase,
+.numb,
+.sc {
+    
+    font-size: larger;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+
+input[type=checkbox] {
+    margin: 2px 0 0;
+    line-height:70%;
     width: 20px;
+    height: 20px;
 }
+.but{
+    height: 100px;  
+}
+.password{
+    text-align: center;
+    margin-top:20px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #000000;
+}
+button{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 20vw;
+}
+.footer{
+    height: 50px;
+    width: 40px;
+    background-color:#EEE9DA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
+}
 
